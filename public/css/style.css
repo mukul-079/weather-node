@@ -1,0 +1,62 @@
+
+body {
+    color: cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+footer {
+    color: yellow;
+    border-top:1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px  0;
+    text-align: right;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+
+}
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+
+}
+header a {
+    color:red;
+    margin: auto;
+    text-decoration: none;
+}
+img{
+    width:250px;
+    height:250px;
+}
+a+a{
+    margin-left: 25px;
+}
+
+
+.main-content {
+    flex-grow: 1;
+    margin:20px;
+    padding:12px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+     <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="icon" href="img/weather.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body style="background-color:black;">
+    <div class="main-content" style="background-color:#222;">
+    {{>header}}
+    <p>Use this site for get your weather</p>
+    <form>
+        <input placeholder="Location">
+        <button>Search</button>
+    </form>
+    <br>
+<center><b>
+    <p id="msgone" style="color:rgb(159, 70, 243);font-size:30px;"></p>
+    <p id="msgtwo" style="color:rgb(159, 70, 243); font-size:30px;"></p>
+    </b></center>
+    </div>
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
